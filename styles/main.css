@@ -1,0 +1,123 @@
+body{
+  background: url("../../images/The Anthropomorphic Cabinet.jpg") top / cover no-repeat fixed;
+  color: white;
+  margin: 0px;
+
+}
+
+h1{
+  font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+
+
+header{
+  color: white;
+  margin: 0px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+.banner{
+  width: 20%;
+  height: 10%;
+}
+
+.quote{
+  width: 35%;
+}
+
+.center-in-container{
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.navbar-nav a{
+  color: white;
+}
+
+
+.navbar-nav li > a:hover{
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 15px;
+}
+
+
+section{
+  margin-top: 120px;
+}
+
+figure{
+  border: 5px double #62433f;
+  background-color: #98644e;
+  padding: 5px;
+  display: table;
+
+}
+
+.showcase img{
+  width: 100%;
+}
+
+.table-hover tbody tr:hover{
+   color: black;
+ }
+
+.thumbnails img{
+  width: 150px;
+  height: 100px;
+}
+
+ caption{
+   color:white;
+   font-size: 1.5em;
+ }
+
+
+footer{
+  background-color: #62433f;
+  padding: 10px;
+}
+
+/* Form classes */
+.checkout-form{
+  width: 500px;
+  margin:  10% auto;
+}
+
+.checkout-form legend{
+  color:white;
+  text-align: center;
+}
+
+
+.checkout-form button{
+  border-color: white;
+  background-color: #62433f;
+}
+
+
+.checkout-form button:hover{
+  background-color: #98644e;
+  border-color:#98644e;
+}
+
+.input-group{
+  margin: 1em;
+}
+
+.input-group-addon{
+  min-width:5em;
+}
+
+.no-padding{
+  padding: 0;
+}
+
+.no-top-margin{
+  margin-top:0;
+}
